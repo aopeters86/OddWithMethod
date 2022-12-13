@@ -9,10 +9,12 @@ public class OddWithMethod {
 		System.out.println("Enter a city: ");
 		String cityIn = keyboard.nextLine();
 		
-		for(int i = 0; i < cityIn.length();i = i + 2) {
-			System.out.print(cityIn.charAt(i));
-		}
 
 	}
+		public String Odd(String x){
+		for(int i = 0; i < x.length() ;i = i + 2) {
+		return x.String(charAt(i));
+	}
 
+}
 }
